@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.ConfHandler.HarmDemo.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Task;
-import com.example.demo.repository.TaskRepository;
+import com.ConfHandler.HarmDemo.model.Task;
+import com.ConfHandler.HarmDemo.repository.TaskRepository;
 
 @CrossOrigin(origins = "http://localhost:3000") // Zezwala na zapytania z React
 @RestController

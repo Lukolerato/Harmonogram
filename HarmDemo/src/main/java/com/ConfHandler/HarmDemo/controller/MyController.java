@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.ConfHandler.HarmDemo.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

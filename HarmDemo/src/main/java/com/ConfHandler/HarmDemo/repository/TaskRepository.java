@@ -1,7 +1,8 @@
-package com.example.demo.repository;
+package com.ConfHandler.HarmDemo.repository;
 
-import com.example.demo.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ConfHandler.HarmDemo.model.Task;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
 }
