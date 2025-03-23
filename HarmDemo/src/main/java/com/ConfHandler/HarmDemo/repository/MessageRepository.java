@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.ConfHandler.HarmDemo.model.Message;
 
 @Repository
-public interface ExampleRepository extends JpaRepository<Message, Long> {
+public interface MessageRepository extends JpaRepository<Message, Long> {
     
     @Query("SELECT m.message FROM Message m WHERE m.id = 1")
     String findMessageById();
