@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.ConfHandler.HarmDemo.config;
 
 import java.util.List;
 
